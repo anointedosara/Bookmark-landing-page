@@ -140,7 +140,8 @@ const questionBtn = document.querySelectorAll(".question-btn");
 
 for (let i = 0; i < questionBtn.length; i++) {
   questionBtn[i].addEventListener("click", () => {
-    let isOpen = questionBtn[i].nextElementSibling.classList.contains("showAnswer");
+    let isOpen =
+      questionBtn[i].nextElementSibling.classList.contains("showAnswer");
     for (let j = 0; j < questionBtn.length; j++) {
       questionBtn[j].nextElementSibling.classList.remove("showAnswer");
       questionBtn[j].firstElementChild.classList.remove("changeColor");
@@ -156,19 +157,19 @@ const open = document.querySelector(".open");
 const close = document.querySelector(".close");
 const nav = document.querySelector(".list");
 
-  open.classList.add("show")
+open.classList.add("show");
 const handleOpenNav = () => {
   document.body.classList.add("scroll");
-  nav.classList.add("showNav")
-  open.classList.remove("show")
-  close.classList.add("show")
+  nav.classList.add("showNav");
+  open.classList.remove("show");
+  close.classList.add("show");
 };
 open.addEventListener("click", handleOpenNav);
 
 const handleCloseNav = () => {
   document.body.classList.remove("scroll");
-   nav.classList.remove("showNav")
-  open.classList.add("show")
-  close.classList.remove("show")
+  nav.classList.remove("showNav");
+  open.classList.add("show");
+  close.classList.remove("show");
 };
 close.addEventListener("click", handleCloseNav);

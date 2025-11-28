@@ -22,7 +22,8 @@ h4 {
   font-weight: 500;
   margin: 0;
 }
-button, input {
+button,
+input {
   color: white;
   border-radius: 5px;
   border: none;
@@ -32,9 +33,12 @@ button, input {
   padding: 15px 30px;
   background: hsl(231, 69%, 60%);
   border: 2px solid hsl(231, 69%, 60%);
+  cursor: pointer;
 }
-.open, .close {
+.open,
+.close {
   display: none;
+  cursor: pointer;
 }
 .navbar {
   width: 100%;
@@ -67,7 +71,6 @@ button, input {
   color: hsl(225, 4%, 36%);
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 .inner-nav ul li a:hover {
   color: hsl(0, 94%, 66%);
@@ -121,7 +124,7 @@ button, input {
 .hero-inner-wrapper div button {
   cursor: pointer;
   transition: all 0.3s ease;
-  padding: 15px 20px;
+  padding: 15px;
   font-size: 13px;
 }
 .hero-inner-wrapper div button:hover {
@@ -187,7 +190,7 @@ button, input {
   cursor: pointer;
 }
 .navigation-btn:hover {
-    color:hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
 }
 .btnStyle {
   border-bottom: 5px solid hsl(0, 94%, 66%);
@@ -211,8 +214,8 @@ button, input {
   left: -100px;
 }
 .showSlide {
-    left: 0;
-    opacity: 1;
+  left: 0;
+  opacity: 1;
 }
 .slide div {
   max-width: 450px;
@@ -254,32 +257,32 @@ h2 {
   height: max-content;
 }
 .extension img {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .extension h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 .extension p {
-    margin: 15px;
-    font-size: 15px;
+  margin: 15px;
+  font-size: 15px;
 }
 .extension button {
-    margin-top: 50px;
-    font-size: 15px;
-    padding: 15px 0;
-    width: 100%;
+  margin-top: 50px;
+  font-size: 15px;
+  padding: 15px 0;
+  width: 100%;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .extension button:hover {
-    background: transparent;
-    color: blue;
+  background: transparent;
+  color: blue;
 }
 .second {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .last {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 .faq {
   width: 100%;
@@ -303,101 +306,101 @@ h2 {
   border-top: 2px solid rgba(62, 60, 60, 0.1);
 }
 .question-btn {
-    margin: 0;
-    padding: 0 20px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: hsl(229, 31%, 21%);
-    font-weight: 500;
+  margin: 0;
+  padding: 0 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(229, 31%, 21%);
+  font-weight: 500;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 .question-btn:hover {
-    color:hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
 }
 .answer {
-    font-size: 16px;
-    font-weight: 500;
-    color:hsl(0, 0%, 55%);
-    line-height: 1.6;
-    height: 0px;
-    overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(0, 0%, 55%);
+  line-height: 1.6;
+  height: 0px;
+  overflow: hidden;
 }
 .showAnswer {
-    height: 100%;
-    overflow: hidden;
-    padding: 35px 0 15px;
+  height: 100%;
+  overflow: hidden;
+  padding: 35px 0 15px;
 }
 .changeColor {
-    filter: invert(15%) sepia(100%) saturate(5000%) hue-rotate(0deg);
-    transform: rotateX(180deg);
+  filter: invert(15%) sepia(100%) saturate(5000%) hue-rotate(0deg);
+  transform: rotateX(180deg);
 }
 .contact {
-    width: 100%;
-    background: hsl(231, 69%, 60%);
+  width: 100%;
+  background: hsl(231, 69%, 60%);
 }
 .contact-wrapper {
-    max-width: 550px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 70px 30px;
   text-align: center;
 }
 .contact-wrapper p {
-    font-size: 14px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 400;
-    letter-spacing: 5px;
-    margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin: 0;
 }
 .contact-wrapper h4 {
-    font-size: 35px;
-    color: white;
-    margin: 30px 0;
+  font-size: 35px;
+  color: white;
+  margin: 30px 0;
 }
 form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 input {
-    width: 67%;
-    background: white;
-    color: hsl(229, 31%, 21%);
-    padding: 15px 20px;
+  width: 67%;
+  background: white;
+  color: hsl(229, 31%, 21%);
+  padding: 15px 20px;
 }
 form button {
-    color: white;
-    background: hsl(0, 94%, 66%);
+  color: white;
+  background: hsl(0, 94%, 66%);
   transition: all 0.3s ease;
   cursor: pointer;
 }
 form button:hover {
-    color: hsl(0, 94%, 66%);
-    background: transparent;
-    border: 2px solid hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
+  background: transparent;
+  border: 2px solid hsl(0, 94%, 66%);
 }
 footer {
-    width: 100%;
-    background: hsl(229, 31%, 21%);
+  width: 100%;
+  background: hsl(229, 31%, 21%);
 }
 .footer-wrapper {
-    max-width: 1200px;
-    padding: 30px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-wrapper div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logo {
-    background: white;
-    margin-right: 20px;
-    border-radius: 12px 0 0 12px;
+  background: white;
+  margin-right: 20px;
+  border-radius: 12px 0 0 12px;
 }
 .footer-wrapper ul {
   display: flex;
@@ -417,269 +420,276 @@ footer {
   cursor: pointer;
 }
 .footer-wrapper ul li a:hover {
-  color:hsl(0, 94%, 66%);
+  color: hsl(0, 94%, 66%);
 }
 .socials img {
-    margin-left: 30px;
+  margin-left: 30px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1023px) {
-.hero-inner-wrapper div h1 {
-  font-size: 35px;
-}
-.feature-slides {
-  height: 350px;
-}
-h2 {
-  font-size: 25px;
-}
-.slide img {
-  height: 300px;
-}
-.download-wrapper {
-  padding: 100px 30px 50px;
-}
-.extensions {
-  margin: 50px auto;
-  grid-template-columns: repeat(2, 1fr);
-}
-.extension {
-  background-size: contain;
-}
-.second {
+  .hero-inner-wrapper div h1 {
+    font-size: 35px;
+  }
+  .feature-slides {
+    height: 400px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .slide img {
+    height: 300px;
+  }
+  .download-wrapper {
+    padding: 100px 30px 50px;
+  }
+  .extensions {
+    margin: 50px auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .extension {
+    background-size: contain;
+  }
+  .second {
     margin-top: 250px;
-}
-.last {
+  }
+  .last {
     margin-top: -150px;
-}
+  }
 }
 @media screen and (max-width: 768px) {
-p {
-  font-size: 16px;
-  margin: 20px 0 30px;
-}
-.inner-nav {
-  max-width: 350px;
-  padding: 40px 30px;
-}
-.inner-nav .logo {
-  margin: 0;
-  z-index: 1000;
-}
-.inner-nav ul {
-  max-width: 350px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.list {
-  display: block;
-  width: 100%;
-  position: fixed;
-  top: -120vh;
-  left: 0;
-  height: 100vh;
-  background:rgba(37, 43, 70, 0.9);
-  padding: 105px 30px;
-  transition: all 0.5s ease;
-}
-.inner-nav ul li a {
-  margin-left: 0px;
-  font-size: 18px;
-  color: white;
-}
-.inner-nav ul li {
-  padding: 20px 0;
-  width: 100%;
-  letter-spacing: 3px;
-  border-bottom: 1px solid rgb(73, 82, 121);
-  text-align: center;
-}
-.inner-nav ul li:last-child {
-  border-bottom: none;
-}
-.inner-nav ul li:first-child {
-  border-top: 1px solid rgb(73, 82, 121);
-}
-.inner-nav button {
-  letter-spacing: 3px;
-  font-size: 20px;
-  font-weight: 600;
-  border: 2px solid white;
-  background: transparent;
-  width: 100%;
-  color: white;
-}
-.inner-nav button:hover {
-  background: transparent;
-  color: hsl(0, 94%, 66%);
-  border: 2px solid hsl(0, 94%, 66%);
-}
-.scroll {
-  overflow: hidden;
-}
-.show {
-  display: block;
-  z-index: 1000;
-}
-.showNav {
-  display: flex;
-  top: 0;
-}
-.hero-bg {
-  top: 100px;
-  width: 65%;
-  height: 200px;
-  border-radius: 0 0 0 100px;
-}
-.hero-inner-wrapper {
-  max-width: 350px;
-  width: 100%;
-  padding: 30px 0;
-  flex-direction: column-reverse;
-}
-.hero-inner-wrapper div {
-  padding: 70px 30px 0;
-  text-align: center;
-}
-.hero-inner-wrapper div h1 {
-  font-size: 30px;
-}
-.hero-inner-wrapper img {
-  width: 100%;
-}
-.feature-bg {
-  top: 530px;
-  width: 70%;
-  height: 210px;
-  border-radius: 0 0 100px 0;
-}
-.feature-wrapper {
-  max-width: 350px;
-}
-.header {
-  max-width: 100%;
-}
-.navigations {
-  max-width: 100%;
-  margin: 40px auto 70px auto;
-  flex-direction: column;
-  border-top: 2px solid rgba(62, 60, 60, 0.1);
-  border-bottom: none;
-}
-.navigation-btn {
-  padding: 10px 0;
-  border-bottom: 2px solid rgba(62, 60, 60, 0.1);
-}
-.feature-slides {
-  height: 530px;
-}
-.slide {
-  background: transparent;
-  flex-direction: column;
-}
-.slide div {
-  max-width: 100%;
-  text-align: center;
-  padding: 0;
-}
-.btnStyle {
-  border-bottom: 5px solid hsl(0, 94%, 66%);
-  color: hsl(225, 4%, 36%);
-}
-h2 {
-  font-size: 22px;
-}
-.slide img {
-  width: 100%;
-  height: 220px;
-  margin-bottom: 70px;
-}
-.download-wrapper {
-  max-width: 350px;
-  padding: 0px 30px 50px;
-}
-.extensions {
-  max-width: 100%;
-  margin: 50px auto 20px;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 50px;
-}
-.extension h3 {
+  p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+  }
+  .inner-nav {
+    max-width: 400px;
+    padding: 40px 30px;
+  }
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner-nav .logo {
+    margin: 0;
+    z-index: 1000;
+  }
+  .inner-nav ul {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .list {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: -120vh;
+    left: 0;
+    height: 100vh;
+    background: rgba(37, 43, 70, 0.9);
+    padding: 105px 30px;
+    transition: all 0.5s ease;
+  }
+  .inner-nav ul li a {
+    margin-left: 0px;
     font-size: 18px;
-}
-.second, .last {
+    color: white;
+  }
+  .inner-nav ul li {
+    padding: 20px 0;
+    width: 100%;
+    letter-spacing: 3px;
+    border-bottom: 1px solid rgb(73, 82, 121);
+    text-align: center;
+  }
+  .inner-nav ul li:last-child {
+    border-bottom: none;
+  }
+  .inner-nav ul li:first-child {
+    border-top: 1px solid rgb(73, 82, 121);
+  }
+  .inner-nav button {
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid white;
+    background: transparent;
+    width: 100%;
+    color: white;
+  }
+  .inner-nav button:hover {
+    background: transparent;
+    color: hsl(0, 94%, 66%);
+    border: 2px solid hsl(0, 94%, 66%);
+  }
+  .scroll {
+    overflow: hidden;
+  }
+  .show {
+    display: block;
+    z-index: 1000;
+  }
+  .showNav {
+    display: flex;
+    top: 0;
+  }
+  .hero-bg {
+    top: 100px;
+    width: 65%;
+    height: 200px;
+    border-radius: 0 0 0 100px;
+  }
+  .hero-inner-wrapper {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px 0;
+    flex-direction: column-reverse;
+  }
+  .hero-inner-wrapper div {
+    padding: 70px 30px 0;
+    text-align: center;
+  }
+  .hero-inner-wrapper div h1 {
+    font-size: 30px;
+  }
+  .hero-inner-wrapper img {
+    width: 100%;
+  }
+  .feature-bg {
+    top: 530px;
+    width: 70%;
+    height: 210px;
+    border-radius: 0 0 100px 0;
+  }
+  .feature-wrapper {
+    max-width: 400px;
+  }
+  .header {
+    max-width: 100%;
+  }
+  .navigations {
+    max-width: 100%;
+    margin: 40px auto 70px auto;
+    flex-direction: column;
+    border-top: 2px solid rgba(62, 60, 60, 0.1);
+    border-bottom: none;
+  }
+  .navigation-btn {
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(62, 60, 60, 0.1);
+  }
+  .feature-slides {
+    height: 530px;
+  }
+  .slide {
+    background: transparent;
+    flex-direction: column;
+  }
+  .slide div {
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .btnStyle {
+    border-bottom: 5px solid hsl(0, 94%, 66%);
+    color: hsl(225, 4%, 36%);
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .slide img {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 70px;
+  }
+  .download-wrapper {
+    max-width: 400px;
+    padding: 0px 30px 50px;
+  }
+  .extensions {
+    max-width: 100%;
+    margin: 50px auto 20px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .extension h3 {
+    font-size: 18px;
+  }
+  .second,
+  .last {
     margin-top: 0;
-}
-.faq-wrapper {
-  max-width: 350px;
-  padding: 0px 30px 50px;
-}
-.questions {
-  margin: 60px 0;
-}
-.first {
-  border-top: none;
-}
-.question-btn {
+  }
+  .faq-wrapper {
+    max-width: 400px;
+    padding: 0px 30px 50px;
+  }
+  .questions {
+    margin: 60px 0;
+  }
+  .first {
+    border-top: none;
+  }
+  .question-btn {
     padding: 0;
     font-size: 14px;
-}
-.answer {
+  }
+  .answer {
     font-size: 14px;
-}
-.showAnswer {
+  }
+  .showAnswer {
     padding: 20px 0 10px;
-}
-.contact-wrapper {
-    max-width: 350px;
-  padding: 50px 30px;
-}
-.contact-wrapper p {
+  }
+  .contact-wrapper {
+    max-width: 400px;
+    padding: 50px 30px;
+  }
+  .contact-wrapper p {
     font-size: 12px;
     letter-spacing: 4px;
-}
-.contact-wrapper h4 {
+  }
+  .contact-wrapper h4 {
     font-size: 22px;
     margin: 10px 0 30px;
-}
-form {
-  flex-direction: column;
-  width: 100%;
-}
-input {
+  }
+  form {
+    flex-direction: column;
     width: 100%;
-}
-form button {
-  width: 100%;
-  margin-top: 10px;
-}
-.footer-wrapper {
-    max-width: 350px;
+  }
+  input {
+    width: 100%;
+  }
+  form button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .footer-wrapper {
+    max-width: 400px;
     padding: 40px 30px;
     flex-direction: column;
-}
-.footer-wrapper div {
-  flex-direction: column;
-}
-.logo {
-  margin-bottom: 50px;
+  }
+  .footer-wrapper div {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 50px;
     margin-right: 0;
-}
-.footer-wrapper ul {
-  flex-direction: column;
-}
-.footer-wrapper ul li a {
-  margin-left: 0;
-}
-.footer-wrapper ul li {
-  margin-bottom: 30px;
-}
-.socials {
-  flex-direction: row !important;
-  margin-top: 20px;
-}
-.socials img {
-  margin: 0 20px;
-}
+  }
+  .footer-wrapper ul {
+    flex-direction: column;
+  }
+  .footer-wrapper ul li a {
+    margin-left: 0;
+  }
+  .footer-wrapper ul li {
+    margin-bottom: 30px;
+  }
+  .socials {
+    flex-direction: row !important;
+    margin-top: 20px;
+  }
+  .socials img {
+    margin: 0 20px;
+  }
 }
